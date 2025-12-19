@@ -1,4 +1,4 @@
-# Equities Trading Platform
+# Order book implementation
 
 ### Introduction
 There are a variety of venues for trading equities. Each venue is classified as either a 1) lit venue or exchange, or 2) dark pool or alternative trading system (ATS). An example of a lit venue or exchange is [NYSE Chicago](https://en.wikipedia.org/wiki/NYSE_Chicago), and an example of a dark pool or ATS is [JPM-X, JPM's dark pool](https://www.jpmorgan.com/content/dam/jpm/cib/complex/content/markets/aqua/pdf-0.pdf). Exchanges have market data subscriptions that provide either top-of-book market data, or full order book market depth. Top-of-book market data provides updates only for the highest limit order bid price and size as well as for the lowest limit order offer price and size for that exchange. Full order book market depth data provides updates for every individual limit order within that exchange. Dark pools usually do not provide any market data subscriptions or color on any limit orders resting within them.
